@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D1089EE3-166B-4215-9F7D-F54665745EAA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\18.0\Samples\Object Pascal\LiveBindings\oneofeach\vcl\OneOfEachBindCompVCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SB_LB02.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SB_LB03_Create_LB_in_Code.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SB_LB04.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SB_LB05.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TAdapterBindSourceSample.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="OneOfEachBindCompVCL">
+        <MSBuild Projects="..\..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\18.0\Samples\Object Pascal\LiveBindings\oneofeach\vcl\OneOfEachBindCompVCL.dproj"/>
+    </Target>
+    <Target Name="OneOfEachBindCompVCL:Clean">
+        <MSBuild Projects="..\..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\18.0\Samples\Object Pascal\LiveBindings\oneofeach\vcl\OneOfEachBindCompVCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OneOfEachBindCompVCL:Make">
+        <MSBuild Projects="..\..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\18.0\Samples\Object Pascal\LiveBindings\oneofeach\vcl\OneOfEachBindCompVCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SB_LB02">
+        <MSBuild Projects="SB_LB02.dproj"/>
+    </Target>
+    <Target Name="SB_LB02:Clean">
+        <MSBuild Projects="SB_LB02.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SB_LB02:Make">
+        <MSBuild Projects="SB_LB02.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SB_LB03_Create_LB_in_Code">
+        <MSBuild Projects="SB_LB03_Create_LB_in_Code.dproj"/>
+    </Target>
+    <Target Name="SB_LB03_Create_LB_in_Code:Clean">
+        <MSBuild Projects="SB_LB03_Create_LB_in_Code.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SB_LB03_Create_LB_in_Code:Make">
+        <MSBuild Projects="SB_LB03_Create_LB_in_Code.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SB_LB04">
+        <MSBuild Projects="SB_LB04.dproj"/>
+    </Target>
+    <Target Name="SB_LB04:Clean">
+        <MSBuild Projects="SB_LB04.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SB_LB04:Make">
+        <MSBuild Projects="SB_LB04.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SB_LB05">
+        <MSBuild Projects="SB_LB05.dproj"/>
+    </Target>
+    <Target Name="SB_LB05:Clean">
+        <MSBuild Projects="SB_LB05.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SB_LB05:Make">
+        <MSBuild Projects="SB_LB05.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TAdapterBindSourceSample">
+        <MSBuild Projects="TAdapterBindSourceSample.dproj"/>
+    </Target>
+    <Target Name="TAdapterBindSourceSample:Clean">
+        <MSBuild Projects="TAdapterBindSourceSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TAdapterBindSourceSample:Make">
+        <MSBuild Projects="TAdapterBindSourceSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="OneOfEachBindCompVCL;SB_LB02;SB_LB03_Create_LB_in_Code;SB_LB04;SB_LB05;TAdapterBindSourceSample"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="OneOfEachBindCompVCL:Clean;SB_LB02:Clean;SB_LB03_Create_LB_in_Code:Clean;SB_LB04:Clean;SB_LB05:Clean;TAdapterBindSourceSample:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="OneOfEachBindCompVCL:Make;SB_LB02:Make;SB_LB03_Create_LB_in_Code:Make;SB_LB04:Make;SB_LB05:Make;TAdapterBindSourceSample:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

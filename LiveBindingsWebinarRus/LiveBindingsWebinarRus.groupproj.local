@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.328,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.576,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\LiveBindingsByStephenBall.groupproj</Transaction>
+    <Transaction>2017.03.20 16:32:08.567,C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170316-LiveBindings\LiveBindingsByStephenBall\LiveBindingsWebinarRus.groupproj=C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170316-LiveBindings\LiveBindingsByStephenBall\LiveBindingsByStephenBall.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170316-LiveBindings\LiveBindingsByStephenBall\SB_LB03_Create_LB_in_Code.dproj"/>
+	</Default.Personality>
+</BorlandProject>

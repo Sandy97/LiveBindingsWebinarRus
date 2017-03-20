@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.872,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\SB_LB03.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.843,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.647,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.148,C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170316-LiveBindings\LiveBindingsByStephenBall\SB_LB03.dproj=C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170316-LiveBindings\LiveBindingsByStephenBall\SB_LB03_Create_LB_in_Code.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.017,C:\__RADDeveloping\LiveBindingsByStephenBall\TAdapterBindSourceSample.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.436,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.007,C:\__RADDeveloping\LiveBindingsByStephenBall\EmployeeAdapter.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.637,C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170316-LiveBindings\LiveBindingsByStephenBall\EmployeeModel.pas=C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170316-LiveBindings\LiveBindingsByStephenBall\EmployeeAdapter.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.497,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.743,C:\__RADDeveloping\LiveBindingsByStephenBall\TadapterSourceSampleUnit01.fmx=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.743,C:\__RADDeveloping\LiveBindingsByStephenBall\TadapterSourceSampleUnit01.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="a"/>
+	</ActiveMobileDevice>
+</BorlandProject>
